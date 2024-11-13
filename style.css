@@ -1,0 +1,153 @@
+body{
+    background-image: url(images/color.webp);
+    background-repeat: no-repeat;
+    background-size:cover;	
+    text-align: center;
+}
+
+.title {
+    width: 300px;
+    height: 40px;
+    margin-left: 600px ;
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.331) !important;
+    text-align: center;
+    border-radius: 10px;
+    transition: 3s;
+    box-shadow: 3px 3px 3px rgba(66, 59, 54, 0.582);
+
+
+
+}
+
+.title:hover{
+    margin-left: 250px;
+    width: 1020px;
+    height: 40px;
+
+}
+
+.box{
+    background-color: rgba(255, 255, 255, 0.331) !important;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 250px;
+    height: 500px;
+    width: 1000px;
+    transition: 3s;
+    box-shadow: 3px 3px 3px rgba(66, 59, 54, 0.582);
+
+}
+
+.left_box{
+    float: left;
+    width: 450px;
+    padding-right: 20px;
+    padding-top: 40px;
+    
+}
+.right_box{
+    float: left;
+    width: 450px;
+    padding-left: 50px;
+    padding-top: 75px;
+
+}
+
+.left_box img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50px;
+    transform: skewY(15deg);
+    box-shadow: 5px 5px 5px rgba(6, 2, 0, 0.582);
+
+
+}
+
+.left_box img:hover{
+    transform: skewY(-15deg);
+}
+
+.vline{
+    border-left: 6px solid rgb(248, 175, 151) ;
+    height: 400px;
+    float: left;
+    margin-top:50px ;
+    margin-left: 20px;
+}
+
+input{
+    border-radius: 5px;
+    height: 20px;
+    width: 200px;
+    border-color:  rgb(255, 183, 0) ;
+    box-shadow: 3px 3px 3px rgba(6, 2, 0, 0.582);
+    transition: 1s;
+
+}
+
+input:hover{
+    height: 35px;
+    width: 250px;
+    font-size: 20px;
+
+}
+
+
+
+.right_box img{
+    border-radius: 50px ;
+    border-color:  rgb(248, 175, 151) ;
+    height: 50px;
+    width: 50px;
+    box-shadow: 2px 2px 2px rgba(6, 2, 0, 0.582);
+    transition: 1s;
+    margin-left: 10px;
+
+}
+
+.right_box img:hover{
+    height: 70px;
+    width: 70px;
+
+}
+
+pre h2 , h1{
+    font-family:sans-serif;
+}
+
+h1 {
+    text-shadow: 2px 2px  rgba(6, 2, 0, 0.582);
+    color: rgb(236, 152, 124);
+}
+
+.b1 , .b2{
+    border-radius: 20px;
+    background-color: rgb(248, 175, 151);
+    border-color:  rgb(248, 175, 151) ;
+    box-shadow: 2px 2px  rgba(6, 2, 0, 0.582);
+    height: 30px;
+    cursor: pointer;
+    transition: 1s;
+    
+}
+
+.b1{
+    width: 200px;
+    
+
+}
+
+.b2{
+    width: 150px;
+
+}
+
+
+.b1:hover,.b2:hover {
+    width: 300px;
+}
+
+
+
